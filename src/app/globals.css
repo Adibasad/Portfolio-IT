@@ -1,7 +1,4 @@
 @import 'tailwindcss';
-
-@tailwind base;
-@tailwind components;
 @tailwind utilities;
 
 /* Define your custom theme variables */
@@ -11,6 +8,7 @@
     --font-serif: ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
     --font-dancing: 'Dancing Script', cursive;
+    --font-heading: "Libre Baskerville", serif;;
 
     /* Backgrounds */
     --background-dark: linear-gradient(to right, #434343 0%, black 100%);
@@ -22,7 +20,7 @@
     --color-secondary: #9333EA; 
     --color-cyan: #22D3EE;
     --color-offwhite: #f7f4ea;
-    --color-accent-500: oklch(0.68 0.20 100);
+    --color-golden: #FACC15;
 
     /* Spacing */
     --spacing-1: 0.25rem;

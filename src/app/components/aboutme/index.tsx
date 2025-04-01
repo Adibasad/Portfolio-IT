@@ -22,26 +22,15 @@ export default function AboutMe() {
         scrolled ? "pt-16" : "pt-48"
       } pb-16 px-8 lg:px-4 bg-dark text-white relative transition-all duration-500`}
     >
-      {/* Floating Decorative Blobs */}
-      <motion.div
-        className="absolute top-10 left-10 w-28 h-28 bg-primaryDark opacity-30 rounded-full blur-2xl"
-        animate={{ scale: [1, 1.3, 1], rotate: [0, 20, -20, 0] }}
-        transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
-      />
-      <motion.div
-        className="absolute bottom-10 right-10 w-32 h-32 bg-secondary opacity-30 rounded-full blur-2xl"
-        animate={{ scale: [1, 1.4, 1], rotate: [0, -15, 15, 0] }}
-        transition={{ duration: 7, repeat: Infinity, ease: "easeInOut" }}
-      />
 
       {/* About Me Content */}
       <motion.h2
-        className="text-5xl font-bold mb-6 bg-clip-text text-transparent font-heading text-white"
+        className="text-4xl lg:text-5xl font-bold mb-6 bg-clip-text text-transparent font-heading text-white"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        About Me
+        About <span className="font-normal text-golden">Me</span>
       </motion.h2>
       <motion.p
         className="max-w-5xl text-lg text-gray-300 leading-relaxed "

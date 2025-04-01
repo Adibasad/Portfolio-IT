@@ -18,7 +18,7 @@ function ExperienceCard({
 }) {
   return (
     <motion.div
-      className="shadow-lg rounded-lg p-6 space-y-4 transition-all duration-300 ease-in-out hover:shadow-xl hover:translate-y-2 hover:scale-105 max-w-3xl relative overflow-hidden "
+      className="shadow-lg bg-gray-500/30 rounded-4xl p-6 space-y-4 transition-all duration-300 ease-in-out hover:shadow-xl hover:translate-y-2 hover:scale-105 max-w-3xl relative overflow-hidden "
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
@@ -26,13 +26,13 @@ function ExperienceCard({
       <div className="flex items-center gap-4">
         <FaBuilding className="text-golden text-5xl transform transition-all duration-300 hover:rotate-6" />
         <div>
-          <h3 className="text-2xl font-bold text-white">{title}</h3>
+          <h3 className="text-lg lg:text-2xl font-bold text-white">{title}</h3>
           <p className="text-md font-semibold text-gray-200">{company}</p>
-          <p className="text-sm text-gray-400">{duration}</p>
+          <p className="text-xs lg:text-sm text-gray-400">{duration}</p>
         </div>
       </div>
 
-      <p className="text-gray-200 text-lg">{description}</p>
+      <p className="text-gray-200 text-sm  lg:text-lg">{description}</p>
 
       {/* Skills Learned */}
       <div className="flex flex-wrap gap-4 mt-6">
@@ -55,14 +55,14 @@ export default function Experience() {
     <section id="experience" className="w-full py-20 text-white flex flex-col items-center bg-dark">
       <div className="container mx-auto px-8">
         <motion.h2
-          className="text-5xl font-bold text-center mb-10 text-transparent font-heading text-white"
+          className="text-3xl lg:text-5xl font-bold text-center mb-10 text-transparent font-heading text-white"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
         >
           Experience
         </motion.h2>
-        <div className="flex flex-col gap-8 items-center">
+        <div className="flex flex-col  gap-8 items-center">
           {experiences.map((experience, index) => (
             <ExperienceCard
               key={index}

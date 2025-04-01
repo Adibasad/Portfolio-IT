@@ -1,23 +1,24 @@
-[{
+[
+  {
     "title": "Trainee Software Developer",
     "company": "Sawalsha Leasing And Finance Pvt Ltd",
     "duration": "Dec 2024 - Mar 2025",
-    "description": "Developed and maintained a financial management dashboard, optimized React-based frontends, and contributed to backend services using Node.js.",
-    "skills": ["React.js", "Node.js", "Financial Management"]
+    "description": "Developed a financial management dashboard for data visualization. Optimized React-based frontends to enhance user experience. Developed dynamic blog creation and management system using Next.js and Mongo DB. Designed and improved backend services using Next APIs and Prisma ORM.",
+     
+    "skills": ["Next.js", "Typescript", "Node.js", "Prisma ORM", "PostgreSQL", "Tailwind CSS"]
   },
   {
     "title": "React.js Developer Intern",
     "company": "The Entrepreneurship Network",
     "duration": "Jun 2024 - Nov 2024",
-    "description": "Worked on building dynamic and scalable React applications in an agile environment. Focused on improving UI/UX and integrating with APIs.",
-    "skills": ["React.js", "JavaScript", "UI/UX", "API Integration"]
+    "description": "Built dynamic and scalable React applications in an agile environment. Improved UI/UX for better accessibility and engagement. Integrated APIs to enhance application functionality.",
+    "skills": ["React.js", "JavaScript", "MongoDB", "API Integration" , "Bootstrap"]
   },
-  
   {
     "title": "Java Developer Intern",
     "company": "TechnoHacks EduTech",
     "duration": "Aug 2023 - Sep 2023",
-    "description": "Developed Java-based applications, focusing on performance optimization and contributing to backend development for various platforms.",
-    "skills": ["Java", "Backend Development", "Performance Optimization"]
+    "description": "Developed Java applications, ensuring optimized performance. Collaborated with cross-functional teams to deliver high-quality software solutions.",
+    "skills": ["Core Java", "Spring Boot", "Performance Optimization"]
   }
 ]

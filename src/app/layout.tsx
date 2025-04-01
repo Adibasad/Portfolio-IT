@@ -1,4 +1,3 @@
-"use client";
 
 import { Geist, Geist_Mono } from "next/font/google";
 import { motion } from "framer-motion";
@@ -6,6 +5,41 @@ import Head from "next/head";
 import "./globals.css";
 import Header from "./components/header";
 
+export const metadata = {
+  title: "Adiba Sadaf | Full Stack Developer",
+  description:
+    "Portfolio of Adiba Sadaf, a skilled Full Stack Developer specializing in Next.js, React, Node.js, TypeScript, and PostgreSQL. Also experienced in MongoDB, Express.js, and JavaScript. Other Languages include Java and Python.",
+  keywords: [
+    "Full Stack Developer",
+    "Adiba Sadaf",
+    "React Developer",
+    "Next.js Developer",
+    "JavaScript",
+    "TypeScript",
+    "Node.js",
+    "MongoDB",
+    "PostgreSQL",
+    "Java Developer",
+    "Python Developer",
+    "Software Developer",
+    "Frontend Developer",
+    "Backend Developer",
+    "Web Developer Portfolio",
+    "Software Engineer",
+    "Full Stack Engineer",
+    "React",
+    "Node",
+    "Java",
+    "Python",
+    "Mongo",
+    "Postgres",
+    "Express",
+    "MERN Stack",
+    "Make applications",
+    "Build websites",
+    "Develop software"
+  ],
+};
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

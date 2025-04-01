@@ -12,6 +12,7 @@
     "tailwind:init": "tailwindcss init -p"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@tailwindcss/postcss": "^4.0.15",
     "autoprefixer": "^10.4.21",
     "framer-motion": "^12.5.0",

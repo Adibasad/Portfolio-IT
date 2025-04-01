@@ -11,7 +11,7 @@ import ContactMe from "./components/contact-me";
 function App() {
   return (
     <>
-    <div className="flex flex-col items-center justify-center">
+    <div className="">
       <Header/>
       <Hero/>
       <AboutMe/>

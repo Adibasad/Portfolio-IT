@@ -38,6 +38,7 @@
 /* Example of adding custom base styles */
 @layer base {
     body {
+        overflow: hidden;
         background-image: var(--background-dark);
     }
     text {

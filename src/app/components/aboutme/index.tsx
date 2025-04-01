@@ -22,7 +22,6 @@ export default function AboutMe() {
         scrolled ? "pt-16" : "pt-48"
       } pb-16 px-8 lg:px-4 bg-dark text-white relative transition-all duration-500`}
     >
-
       {/* About Me Content */}
       <motion.h2
         className="text-4xl lg:text-5xl font-bold mb-6 bg-clip-text text-transparent font-heading text-white"
@@ -38,12 +37,12 @@ export default function AboutMe() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.5 }}
       >
-        I'm have a passion for creating innovative and efficient solutions. With
-        over a year of hands-on experience, I've had the opportunity to build a
-        range of dynamic applications, tackling challenges across various
-        industries such as finance, entertainment, and more. My expertise lies
-        in building robust, responsive, scalable, and user-friendly web
-        applications.
+        I&apos;m have a passion for creating innovative and efficient solutions.
+        With over a year of hands-on experience, I&apos;ve had the opportunity
+        to build a range of dynamic applications, tackling challenges across
+        various industries such as finance, entertainment, and more. My
+        expertise lies in building robust, responsive, scalable, and
+        user-friendly web applications.
       </motion.p>
       <motion.p
         className="max-w-5xl text-lg text-gray-300 mt-4 leading-relaxed"
@@ -51,8 +50,8 @@ export default function AboutMe() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.7 }}
       >
-        I've had the privilege to contribute to several impactful projects such
-        as
+        I&apos;ve had the privilege to contribute to several impactful projects
+        such as
         <span className="font-semibold text-primary"> MudraBoxx</span> (a
         Digital Lending Platform),{" "}
         <span className="font-semibold text-primary">PaisaInTime</span> (Digital
@@ -82,7 +81,7 @@ export default function AboutMe() {
         In addition to technical skills, I also place great importance on
         teamwork and communication. I believe that collaboration drives
         innovation and allows for better problem-solving. Throughout my career,
-        I've worked in cross-functional teams and have always maintained a focus
+        I&apos;ve worked in cross-functional teams and have always maintained a focus
         on delivering high-quality solutions.
       </motion.p>
 
@@ -92,9 +91,9 @@ export default function AboutMe() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, delay: 1 }}
       >
-        Fun fact: When I'm not coding, you’ll find me diving into my favorite
-        books📖, enjoying a great movie🎬, or experimenting with new recipes in the
-        kitchen🍳! 
+        Fun fact: When I&apos;m not coding, you’ll find me diving into my favorite
+        books📖, enjoying a great movie🎬, or experimenting with new recipes in
+        the kitchen🍳!
       </motion.div>
     </section>
   );

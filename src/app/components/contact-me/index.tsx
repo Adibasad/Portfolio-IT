@@ -6,7 +6,6 @@ import emailjs from "@emailjs/browser";
 import contactImg from "../../../../public/email-write.png";
 import successImg from "../../../../public/success.png";
 import { HiMiniCheckBadge } from "react-icons/hi2";
-import { DiEnvato } from "react-icons/di";
 
 export default function ContactMe() {
   const [formData, setFormData] = useState({
@@ -75,9 +74,9 @@ export default function ContactMe() {
               transition={{ duration: 0.6 }}
               className="space-y-6 text-center md:text-left flex flex-col items-start justify-center"
             >
-              <h2 className="text-4xl font-bold">Let's Work Together!</h2>
+              <h2 className="text-4xl font-bold">Let&apos;s Work Together!</h2>
               <p className="text-gray-300">
-                Have a project in mind? Feel free to reach out and let's build
+                Have a project in mind? Feel free to reach out and let&apos;s build
                 something amazing.
               </p>
               <div className="w-full flex justify-center items-center">
@@ -173,7 +172,7 @@ export  function SuccessMessage() {
       <div>
         <p className="text-lg lg:text-5xl font-semibold">Message Sent!</p>
         <p className="text-sm lg:text-lg text-gray-300 mt-2">
-          Thank you for reaching out. I'll get back to you soon.
+          Thank you for reaching out. I&apos;ll get back to you soon.
         </p>
       </div>
 

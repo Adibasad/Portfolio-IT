@@ -56,7 +56,7 @@ const Header = () => {
             <a href="#projects">Projects</a>
           </li>
           <li className="hover:text-blue-400 transition">
-            <a href="#contact">Let's Connect</a>
+            <a href="#contact">Let&apos;s Connect</a>
           </li>
         </ul>
 
@@ -104,7 +104,7 @@ const Header = () => {
               </li>
               <li className="hover:text-blue-400 transition">
                 <a href="#contact" onClick={() => setMenuOpen(false)}>
-                  🤝 Let's Connect
+                  🤝 Let&apos;s Connect
                 </a>
               </li>
             </ul>

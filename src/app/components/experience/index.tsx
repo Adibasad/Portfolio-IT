@@ -55,7 +55,7 @@ export default function Experience() {
     <section id="experience" className="w-full py-20 text-white flex flex-col items-center bg-dark">
       <div className="container mx-auto px-8">
         <motion.h2
-          className="text-3xl lg:text-5xl font-bold text-center mb-10 text-transparent font-heading text-white"
+          className="text-3xl lg:text-5xl font-bold text-center mb-10 font-heading text-white"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}

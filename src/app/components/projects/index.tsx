@@ -82,7 +82,7 @@ function ProjectCard({ title, description, image, techStack, liveDemo }: Project
         <div className="absolute bottom-0 w-full h-full bg-gradient-to-b from-transparent via-gray-800 to-black"></div>
         <motion.div className="bg-gray-700/30 bg-opacity-90 text-white px-4 py-2 lg:p-6 w-full rounded-b-2xl transform translate-y-full group-hover:translate-y-0 transition-transform duration-500">
           <h3 className="text-sm lg:text-xl font-bold">{title}</h3>
-          <p className="text-gray-300 text-xs lg:text-sm mt-1">{description}</p>
+          <p className="text-gray-300 text-[10px] lg:text-sm mt-0.5 lg:mt-1">{description}</p>
 
           {/* Tech Stack */}
           <div className="flex flex-wrap gap-2 mt-3">
@@ -102,9 +102,9 @@ function ProjectCard({ title, description, image, techStack, liveDemo }: Project
               href={liveDemo}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-400 hover:text-blue-600 transition-all duration-300 flex items-center gap-2 mt-2 lg:mt-4"
+              className="text-blue-400 hover:text-blue-600 transition-all duration-300 flex items-center gap-2 mt-2 lg:mt-4 text-[20px] lg:text-lg"
             >
-              <FaExternalLinkAlt className="text-xs lg:text-lg" /> Live Demo
+              <FaExternalLinkAlt className="text-[10px] lg:text-lg" /> Live Demo
             </a>
           )}
         </motion.div>

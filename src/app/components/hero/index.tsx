@@ -32,7 +32,7 @@ function Hero() {
             <span className="font-semibold">Software Developer</span> with over
             a year of experience in building and deploying scalable web
             applications. I specialize in crafting dynamic,responsive, and{" "}
-            user-friendly interfaces while ensuring seamless data managemen.
+            user-friendly interfaces while ensuring seamless data management.
             With a keen eye for <span className="font-semibold">design</span>{" "}
             and <span className="font-semibold">performance</span>, I create
             intuitive digital experiences that bring ideas to life.

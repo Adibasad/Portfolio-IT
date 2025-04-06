@@ -74,6 +74,10 @@ export const metadata = {
     "Reliable freelance developer",
     "Talented React-Native specialist",
   ],
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://portfolio-9mny5hzq8-adibasads-projects.vercel.app/",
+  },
 };
 
 

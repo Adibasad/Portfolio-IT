@@ -78,6 +78,7 @@ export const metadata = {
   alternates: {
     canonical: "https://portfolio-9mny5hzq8-adibasads-projects.vercel.app/",
   },
+  "google-site-verification": "_Ttv-efPBdMY8gu44Or8bO_kkUB4YkkEYWhzFKouGvw",
 };
 
 

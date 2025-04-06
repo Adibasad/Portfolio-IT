@@ -100,6 +100,12 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
+      <head>
+        <meta
+          name="google-site-verification"
+          content="_Ttv-efPBdMY8gu44Or8bO_kkUB4YkkEYWhzFKouGvw"
+        />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased relative`}
         style={{ overflowX: "hidden" }}

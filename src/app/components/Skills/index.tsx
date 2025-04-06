@@ -140,9 +140,9 @@ export default function Skills() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1, delay: 1 }}
       >
-        Need a developer who can turn ideas into real, scalable web apps? I'm
-        open for freelance or full-time opportunities — let's build something
-        amazing together!
+        Need a developer who can turn ideas into real, scalable web apps?
+        I&apos;m open for freelance or full-time opportunities — let&apos;s
+        build something amazing together!
       </motion.div>
     </section>
   );

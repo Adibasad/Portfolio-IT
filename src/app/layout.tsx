@@ -2,7 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 export const metadata = {
-  title: "Adiba Sadaf | Full Stack Developer",
+  title: "Adiba Sadaf | Portfolio",
   description:
     "Portfolio of Adiba Sadaf, a skilled Full Stack Developer specializing in Next.js, React, Node.js, TypeScript, and PostgreSQL. Also experienced in MongoDB, Express.js, and JavaScript. Other Languages include Java and Python.",
   keywords: [
@@ -34,8 +34,50 @@ export const metadata = {
     "Make applications",
     "Build websites",
     "Develop software",
+    "Online Interview Assessment System for Students and Professionals",
+    "Adiba Sadaf projects",
+    "Projects by Adiba Sadaf",
+    "Contact Adiba Sadaf",
+    "Projects of Adiba Sadaf",
+    "Best Freelancer Near me",
+    "Affordable Freelancer Near me",
+    "Hourly based paid freelancer near me",
+    "React-Native Developer near me",
+    "React.js Developer Near me",
+    "Next.js Developer Near me",
+    "Yash Vinod Kapure",
+    "Best Freelancer",
+    "Front-End Engineer",
+    "MERN/MEVN Stack Dev",
+    "Full Stack Web Developer",
+    "Front-end React-Native Developer",
+    "Freelance web development",
+    "React-Native development services",
+    "MERN Stack projects",
+    "MEVN Stack development",
+    "Web development portfolio",
+    "Adiba Sadaf portfolio",
+    "Freelancer services",
+    "Who is Adiba Sadaf?",
+    "Where does Adiba Sadaf Live?",
+    "Web Developer Near me",
+    "Front-End Developer near me",
+    "Domain Name purchase",
+    "Top-rated freelancer",
+    "Expert web developer",
+    "Skilled React-Native Developer",
+    "Professional MERN/MEVN Stack Developer",
+    "Exceptional Full Stack Web Developer",
+    "Local freelance talent",
+    "Outstanding Front-End Engineer",
+    "Best web development services",
+    "Reliable freelance developer",
+    "Talented React-Native specialist",
   ],
 };
+
+
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

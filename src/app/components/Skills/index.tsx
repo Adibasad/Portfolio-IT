@@ -134,6 +134,16 @@ export default function Skills() {
           </motion.div>
         ))}
       </div>
+      <motion.div
+        className="mt-8 px-6 py-4 bg-gray-800 rounded-lg border-l-4 border-secondary text-gray-300 italic"
+        initial={{ opacity: 0, scale: 0.8 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1, delay: 1 }}
+      >
+        Need a developer who can turn ideas into real, scalable web apps?
+        I&apos;m open for freelance or full-time opportunities — let&apos;s
+        build something amazing together!
+      </motion.div>
     </section>
   );
 }

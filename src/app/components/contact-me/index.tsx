@@ -74,10 +74,11 @@ export default function ContactMe() {
               transition={{ duration: 0.6 }}
               className="space-y-6 text-center md:text-left flex flex-col items-start justify-center"
             >
-              <h2 className="text-4xl font-bold">Let&apos;s Work Together!</h2>
+              <h2 className="text-4xl font-bold">Contact Me</h2>
               <p className="text-gray-300">
-                Have a project in mind? Feel free to reach out and let&apos;s build
-                something amazing.
+                Got a project in mind or just want to say hi? Feel free to drop
+                a message — I&apos;m always open to exciting opportunities and
+                meaningful collaborations!
               </p>
               <div className="w-full flex justify-center items-center">
                 <Image
